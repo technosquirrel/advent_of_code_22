@@ -19,4 +19,7 @@ with open("2.txt") as file:
         total1 += scores[line][0]
         total2 += scores[line][1]
 
-print(total1, total2)
+# Part one solution
+print(total1)
+# Part two solution
+print(total2)
