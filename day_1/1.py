@@ -10,5 +10,8 @@ with open("1.txt") as file:
             elf = 0
             
 elves = sorted(elves, reverse=True)
+
+# Part one solution
 print(elves[0])
+# Part two solution
 print(sum(elves[0:3]))
